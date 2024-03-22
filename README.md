@@ -9,4 +9,5 @@ The model architecure is shown below:
 ## Data
 
 We evaluated our method on the [BRATS2020 dataset](https://www.med.upenn.edu/cbica/brats2020/data.html).
-The model input are picke files, and the each picke file coreespoinding to a subject with size 5(t1, t2, t1ce, FLAIR, U-Net output )*C（one hot encolding label）*L*W*H
+The model input are picke files, and the each picke file coreespoinding to a subject with size of  $`7*L*W*H `$, where 7 represents concatenation of 4 MRI contrasts and  one hot encolding label segmentation masks from U-Net model (t1, t2, t1ce, FLAIR, TC, WT, ET)
+
