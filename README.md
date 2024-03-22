@@ -14,5 +14,6 @@ You can use your own U-Net model or use our previous Implementation of U-Net ([h
 
 ## Usage
 
-1. prepared the data accroding to the discription in the Data section.
-2. run the train_cv.py. 
+1. Prepared the data accroding to the discription in the Data section.
+2. To train the segmentation model, run the train.py. 
+3. For model inference, run test.py 
